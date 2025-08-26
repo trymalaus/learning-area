@@ -1,0 +1,69 @@
+body {
+  background: #2E6F5F;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#auth, #dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #1B4D3E;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #163d32;
+}
+
+.mvt-card {
+  background: #1B4D3E;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.mvt-item {
+  display: flex;
+  justify-content: space-between;
+  background: #2d5c4d;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+#leaderboard li {
+  background: #1B4D3E;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like {
+  cursor: pointer;
+  background: #2d5c4d;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

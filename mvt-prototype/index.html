@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MVT Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="auth">
+    <h1>Minimum Viable Toolkit Portal</h1>
+    <div id="login-section">
+      <h2>Login</h2>
+      <form id="login-form">
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p>New here? <a href="#" id="show-register">Register</a></p>
+    </div>
+    <div id="register-section" style="display:none;">
+      <h2>Register</h2>
+      <form id="register-form">
+        <input type="email" id="reg-email" placeholder="Email" required>
+        <input type="password" id="reg-password" placeholder="Password" required>
+        <textarea id="reg-mvt" placeholder="Your Minimum Viable Toolkit" required></textarea>
+        <textarea id="reg-highlight" placeholder="Your AI Highlight for this month" required></textarea>
+        <button type="submit">Register</button>
+      </form>
+      <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+    </div>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+    <h1>MVT Dashboard</h1>
+    <button id="logout">Logout</button>
+
+    <section id="mvt-section">
+      <h2>Your Minimum Viable Toolkit</h2>
+      <div id="mvt-card" class="mvt-card"></div>
+      <textarea id="mvt-input" placeholder="Update your toolkit"></textarea>
+      <button id="mvt-save">Save Toolkit</button>
+    </section>
+
+    <section id="highlight-section">
+      <h2>Your AI Highlight</h2>
+      <textarea id="highlight-input" placeholder="Share your AI highlight for this month"></textarea>
+      <button id="highlight-save">Save Highlight</button>
+    </section>
+
+    <section id="search-section">
+      <h2>Search</h2>
+      <input type="text" id="search-input" placeholder="Search for users, toolkits or highlights">
+      <ul id="search-results"></ul>
+    </section>
+
+    <section id="leaderboard-section">
+      <h2>Highlight Leaderboard</h2>
+      <ul id="leaderboard"></ul>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
