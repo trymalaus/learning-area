@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2E6F5F;
+  color: #fff;
+}
+
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+form {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  background-color: #1E463B;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #163429;
+}
+
+.mvt {
+  background: rgba(0,0,0,0.25);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.mvt .category {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255,255,255,0.05);
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.highlight {
+  background: rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.search-results .user {
+  background: rgba(0,0,0,0.2);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+nav a {
+  color: #fff;
+  margin-left: 10px;
+}

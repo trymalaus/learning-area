@@ -1,0 +1,10 @@
+{
+  "name": "mvt-app",
+  "version": "1.0.0",
+  "description": "Prototype Minimum Viable Toolkit tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "license": "MIT"
+}
